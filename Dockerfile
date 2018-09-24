@@ -22,9 +22,7 @@ RUN apk add --update --no-cache \
 		libxslt-dev \
 		openssh \
 		rsync \
-		wget && \
-	apk del build-dependencies && \
-	rm /var/cache/apk/*
+		wget
 
 RUN wget "$HUGO_DOWNLOAD_URL" && \
 	tar xzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz && \
