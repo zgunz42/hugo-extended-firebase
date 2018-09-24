@@ -1,4 +1,4 @@
-FROM node:6.14.4-alpine
+FROM alpine:3.8
 
 LABEL maintainer="adi_gunawan@live.com"
 
